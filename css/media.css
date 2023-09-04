@@ -1,0 +1,135 @@
+
+/*================ Brackpoint css start ================*/
+
+/*----------====== Medem screens devicest ======----------*/
+@media screen and (max-width: 991px){
+
+	/* Common css */
+	body{
+		font-size: var(--size-15);
+	}
+
+	/* 	Navbar section */
+	.card-area{
+		margin-top: 15px;
+		padding: 0;
+	}
+
+	.card-area ul li{
+		display: block;
+		margin-bottom: 30px;
+		margin-left: 0;
+	}
+
+	/* Banner section */
+	.carousel-item{
+		padding: 40px 30px;
+	}
+
+	.carousel-content h1{
+		margin-bottom: 10px;
+		font-size: var(--size-28);
+		line-height: var(--line-34);
+	}
+
+	.carousel-content p{
+		margin-bottom: 10px;
+	}
+
+	.carousel-content .tag-h1{
+		margin-bottom: 30px;
+		font-size: var(--size-28);
+		line-height: var(--line-34);
+	}
+
+	.carousel-img{
+		padding-left: 20px;
+	}
+
+	/* Feacture products section */
+	.feacture-inner-1,
+	.feacture-inner-2,
+	.feacture-inner-3{
+		padding: 10px 20px;
+	}
+
+	.feacture-inner-1 .tag1-h1,
+	.feacture-inner-2 .tag1-h1,
+	.feacture-inner-3 .tag1-h1{
+		font-size: var(--size-28);
+	}
+
+	/* Shoes & backpack section */
+	.shoes-inner,
+	.backpack-inner{
+		padding: 10px 15px 50px 15px;
+	}
+
+	.backpack-inner img{
+		margin-bottom: 10px;
+	}
+
+	.shoes-inner h3,
+	.backpack-inner h3{
+		margin-bottom: 20px;
+		font-size: var(--size-20);
+	}
+
+	.shoes-inner h4,
+	.backpack-inner h4{
+		margin-bottom: 20px;
+		font-size: var(--size-18);
+	}
+
+}
+
+/*----------====== Small screens, laptops devicest ======----------*/
+@media screen and (max-width: 767px){
+	/* Banner section */
+	.carousel-content{
+		margin-bottom: 40px;
+	}
+
+	.carousel-img{
+		text-align: center;
+	}
+
+	.carousel-img img{
+		width: 80% !important;
+	}
+
+	/* Feacture products section */
+	.feacture-inner-1,
+	.feacture-inner-2,
+	.feacture-inner-3{
+		margin-bottom: 25px;
+	}
+
+	/* Shoes & backpack section */
+	.shoes-inner,
+	.backpack-inner{
+		margin-bottom: 25px;
+	}
+
+	/*===== Newsletter section =====*/
+	.subscribe-inner form input{
+		width: 75vw;
+	}
+
+}
+
+/*----------====== Mobile screen devicest ======----------*/ 
+@media screen and ( max-width: 340px ){
+	/* Banner section */
+	.carousel-img img{
+		height: 100%;
+	}
+
+	/* Footer section */
+	#footer-section .copy{
+		font-size: var(--size-12);
+	}
+
+}
+
+/*================ Brackpoint css end ================*/
